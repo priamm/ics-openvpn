@@ -6,7 +6,6 @@
 package de.blinkt.openvpn.core;
 
 import android.os.Build;
-import android.support.annotation.NonNull;
 
 import java.math.BigInteger;
 import java.net.Inet6Address;
@@ -16,6 +15,7 @@ import java.util.PriorityQueue;
 import java.util.TreeSet;
 import java.util.Vector;
 
+import androidx.annotation.NonNull;
 import de.blinkt.openvpn.BuildConfig;
 
 

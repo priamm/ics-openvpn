@@ -23,7 +23,6 @@ import android.os.Environment;
 import android.provider.OpenableColumns;
 import android.security.KeyChain;
 import android.security.KeyChainAliasCallback;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Pair;
@@ -54,6 +53,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import androidx.annotation.NonNull;
 import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.ConfigParser;

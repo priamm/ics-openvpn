@@ -9,8 +9,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +22,8 @@ import android.widget.TextView;
 import java.util.Locale;
 import java.util.Vector;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.core.NativeUtils;
 import de.blinkt.openvpn.core.OpenVPNService;

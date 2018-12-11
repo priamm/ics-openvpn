@@ -10,11 +10,11 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.annotation.StringRes;
 import android.support.v4n.app.FragmentStatePagerAdapter;
 
 import java.util.Vector;
 
+import androidx.annotation.StringRes;
 import de.blinkt.openvpn.activities.MainActivity;
 
 /**

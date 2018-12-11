@@ -30,8 +30,7 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
+
 import android.system.OsConstants;
 import android.text.TextUtils;
 import android.util.Log;
@@ -47,6 +46,8 @@ import java.util.Collection;
 import java.util.Locale;
 import java.util.Vector;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import de.blinkt.openvpn.LaunchVPN;
 import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;

@@ -7,7 +7,6 @@ package de.blinkt.openvpn.fragments;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -17,6 +16,7 @@ import android.widget.*;
 
 import java.util.Arrays;
 
+import androidx.recyclerview.widget.RecyclerView;
 import de.blinkt.openvpn.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.Connection;
